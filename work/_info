@@ -1,0 +1,840 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+!s12c _opt2
+R1
+!s12c _opt1
+R1
+R0
+R1
+R0
+R1
+!s11e vcom 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/home/rafatmom/CprE381/Lab1/Lab1
+T_opt
+!s110 1738100145
+V?7>L@KjlDY[>JjjKPgOWA0
+04 11 8 work mux2t1_n_tb behavior 1
+=1-7486e228abe7-67994db0-ee268-8489
+R1
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+Z6 !s135 nogc
+Z7 o-quiet -auto_acc_if_foreign -work work
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2024.2;79
+R2
+T_opt1
+!s110 1738098718
+V@iLQSCg]gVB8GFHhoK][a3
+04 14 8 work mux2t1_n_df_tb behavior 1
+=1-7486e228abe7-6799481e-4931c-7a95
+R1
+R3
+R4
+R5
+R6
+R7
+R8
+n@_opt1
+R9
+R2
+T_opt2
+!s110 1738099202
+VQ6VT>V]52Z9GXA7b^?Y6e1
+04 18 8 work mux2t1_dataflow_tb behavior 1
+=1-7486e228abe7-67994a02-bf7e3-7e9c
+R1
+R3
+R4
+R5
+R6
+R7
+R8
+n@_opt2
+R9
+R2
+Eadder
+Z10 w1737085900
+Z11 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R2
+Z14 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Adder.vhd
+Z15 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Adder.vhd
+l0
+Z16 L26 1
+VSjM4gi`5W^[R>0BUkBk440
+!s100 D7GUTT<S>Ij<;bm;`5=Z12
+Z17 OL;C;2024.2;79
+32
+Z18 !s110 1738097480
+!i10b 1
+Z19 !s108 1738097480.000000
+Z20 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Adder.vhd|
+Z21 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/Adder.vhd|
+!i113 0
+Z22 o-work work
+Z23 tExplicit 1 CvgOpt 0
+Abehavior
+R11
+R12
+R13
+DEx4 work 5 adder 0 22 SjM4gi`5W^[R>0BUkBk440
+!i122 0
+l40
+L39 11
+V`TJnZZh2A_n0I79;0:ETE1
+!s100 z]F]Ulo_Tema=Q<>RNE;Q0
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Eandg2
+Z24 w1737080929
+R12
+R13
+!i122 1
+R2
+Z25 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/andg2.vhd
+Z26 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/andg2.vhd
+l0
+Z27 L23 1
+VQ@<<<@nlJ=eiIl4BJDFzW2
+!s100 YT?bGzEmcFo:DlnoC^B4_0
+R17
+32
+R18
+!i10b 1
+R19
+Z28 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/andg2.vhd|
+Z29 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/andg2.vhd|
+!i113 0
+R22
+R23
+Adataflow
+R12
+R13
+DEx4 work 5 andg2 0 22 Q@<<<@nlJ=eiIl4BJDFzW2
+!i122 1
+l32
+Z30 L31 6
+VJVOzCk?IH:iJ5bCRU`CK13
+!s100 I`@Z@UBObS]<7m8bPgKUS1
+R17
+32
+R18
+!i10b 1
+R19
+R28
+R29
+!i113 0
+R22
+R23
+Einvg
+Z31 w1737080926
+R12
+R13
+!i122 2
+R2
+Z32 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/invg.vhd
+Z33 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/invg.vhd
+l0
+R27
+VQ?6hb9ePk@>kZZ9k]hNSO3
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R17
+32
+R18
+!i10b 1
+R19
+Z34 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/invg.vhd|
+Z35 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/invg.vhd|
+!i113 0
+R22
+R23
+Adataflow
+R12
+R13
+DEx4 work 4 invg 0 22 Q?6hb9ePk@>kZZ9k]hNSO3
+!i122 2
+l31
+L30 6
+Vch>li:oKYZkCO5]GamViK1
+!s100 bk7I76o8e1LURdoZEQb8H0
+R17
+32
+R18
+!i10b 1
+R19
+R34
+R35
+!i113 0
+R22
+R23
+Emultiplier
+Z36 w1737080818
+R11
+R12
+R13
+!i122 3
+R2
+Z37 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Multiplier.vhd
+Z38 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Multiplier.vhd
+l0
+R16
+VU2EKUMVUK]ZI;V2JVLQN30
+!s100 7X@Jko]<<Vj_GlPXZCnEf3
+R17
+32
+R18
+!i10b 1
+R19
+Z39 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Multiplier.vhd|
+Z40 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/Multiplier.vhd|
+!i113 0
+R22
+R23
+Abehavior
+R11
+R12
+R13
+DEx4 work 10 multiplier 0 22 U2EKUMVUK]ZI;V2JVLQN30
+!i122 3
+l38
+L37 11
+Vj1FVcBBz;R:>zO`gDGEm@3
+!s100 NZ_1jPD9^a_Gc254BDF0C1
+R17
+32
+R18
+!i10b 1
+R19
+R39
+R40
+!i113 0
+R22
+R23
+Emux2t1
+Z41 w1738098007
+R12
+R13
+!i122 150
+R2
+Z42 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_structural.vhd
+Z43 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_structural.vhd
+l0
+L5 1
+VCbUcgLAVf<H3=`kmj>jZU2
+!s100 5Z[0SfDIG2A;`kN;`c:2d3
+R17
+32
+Z44 !s110 1738099988
+!i10b 1
+Z45 !s108 1738099988.000000
+Z46 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_structural.vhd|
+Z47 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_structural.vhd|
+!i113 0
+R22
+R23
+Astructural
+R12
+R13
+DEx4 work 6 mux2t1 0 22 CbUcgLAVf<H3=`kmj>jZU2
+!i122 150
+l43
+L14 58
+VRZjKcFYfbFZ<IULih<`R^1
+!s100 C5Ki9LPk57FcKGX2Vl[[Y1
+R17
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 0
+R22
+R23
+Emux2t1_dataflow
+Z48 w1738098918
+R12
+R13
+!i122 152
+R2
+Z49 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_df.vhd
+Z50 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_df.vhd
+l0
+L5 1
+VRneaVnDSWWjMZB<SaceCE3
+!s100 [bzNA[iWL`l<<<ZDgPObm1
+R17
+32
+R44
+!i10b 1
+R45
+Z51 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_df.vhd|
+Z52 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_df.vhd|
+!i113 0
+R22
+R23
+Adataflow
+R12
+R13
+DEx4 work 15 mux2t1_dataflow 0 22 RneaVnDSWWjMZB<SaceCE3
+!i122 152
+l15
+L14 6
+VdPe[j8e?KJSC=h5Rk86RZ2
+!s100 O4N==URJh:^KB1zD0d]]53
+R17
+32
+R44
+!i10b 1
+R45
+R51
+R52
+!i113 0
+R22
+R23
+Emux2t1_dataflow_tb
+Z53 w1738098911
+R12
+R13
+!i122 148
+R2
+Z54 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_tb_df.vhd
+Z55 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_tb_df.vhd
+l0
+L4 1
+V5>hP9V?b;8^0Gzh2>j4z31
+!s100 e6JRX9V@KEeM4fnRYaXhg2
+R17
+32
+R44
+!i10b 1
+R45
+Z56 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_tb_df.vhd|
+Z57 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_tb_df.vhd|
+!i113 0
+R22
+R23
+Abehavior
+R12
+R13
+DEx4 work 18 mux2t1_dataflow_tb 0 22 5>hP9V?b;8^0Gzh2>j4z31
+!i122 148
+l25
+L8 45
+Vk4:i947<:B7U;:<aa]4G22
+!s100 Ve;1lNB`hRYn8iDAQi=Zf2
+R17
+32
+R44
+!i10b 1
+R45
+R56
+R57
+!i113 0
+R22
+R23
+Emux2t1_n
+Z58 w1738093421
+R12
+R13
+!i122 153
+R2
+Z59 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1.vhd
+Z60 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1.vhd
+l0
+L5 1
+VNR5L3zeQo<D:DQ=l@8g>H3
+!s100 0A3eLak2l_k1dZ=^0@I]^2
+R17
+32
+R44
+!i10b 1
+R45
+Z61 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1.vhd|
+Z62 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1.vhd|
+!i113 0
+R22
+R23
+Astructural
+R12
+R13
+DEx4 work 8 mux2t1_n 0 22 NR5L3zeQo<D:DQ=l@8g>H3
+!i122 153
+l29
+L15 27
+VEgB;DPdKjZmz6f=U_dYT?3
+!s100 SQRQ@K2kl^WiI==F^c;?:3
+R17
+32
+R44
+!i10b 1
+R45
+R61
+R62
+!i113 0
+R22
+R23
+Emux2t1_n_df
+Z63 w1738092847
+R12
+R13
+!i122 84
+R2
+R49
+R50
+l0
+L5 1
+VXYIP[9kC8K>jhN:Ym?=N91
+!s100 `BcWbYE0;h<dlFajS?cJ02
+R17
+32
+Z64 !s110 1738098709
+!i10b 1
+Z65 !s108 1738098709.000000
+R51
+R52
+!i113 0
+R22
+R23
+Adataflow
+R12
+R13
+DEx4 work 11 mux2t1_n_df 0 22 XYIP[9kC8K>jhN:Ym?=N91
+!i122 84
+l16
+L15 5
+VI^H;_k0P2YX1@Hj1Ih3]j2
+!s100 n@IUz<<:4BP]RgJ<n^>3E1
+R17
+32
+R64
+!i10b 1
+R65
+R51
+R52
+!i113 0
+R22
+R23
+Emux2t1_n_df_tb
+Z66 w1738092011
+Z67 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z68 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R12
+R13
+!i122 81
+R2
+R54
+R55
+l0
+L6 1
+VahLGC?kmobbhLzP?4nKD20
+!s100 C3U7hF8iB`OUX:^YTJjnU0
+R17
+32
+R64
+!i10b 1
+R65
+R56
+R57
+!i113 0
+R22
+R23
+Abehavior
+R67
+R68
+R12
+R13
+DEx4 work 14 mux2t1_n_df_tb 0 22 ahLGC?kmobbhLzP?4nKD20
+!i122 81
+l26
+L10 43
+V?mBCY<SQA@H;hL;<:CUcK2
+!s100 J[>Sikjz6b[3_KV61Ka:i0
+R17
+32
+R64
+!i10b 1
+R65
+R56
+R57
+!i113 0
+R22
+R23
+Emux2t1_n_tb
+Z69 w1738099965
+R12
+R13
+!i122 151
+R2
+Z70 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_N_tb.vhd
+Z71 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_N_tb.vhd
+l0
+L4 1
+VPD1WGfRf2j<6W;g0JZ=?R2
+!s100 I2iR4>CQO@UIcnG7bVS[C1
+R17
+32
+R44
+!i10b 1
+R45
+Z72 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_N_tb.vhd|
+Z73 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/Mux/mux2t1_N_tb.vhd|
+!i113 0
+R22
+R23
+Abehavior
+R12
+R13
+DEx4 work 11 mux2t1_n_tb 0 22 PD1WGfRf2j<6W;g0JZ=?R2
+!i122 151
+l29
+L8 62
+VT4Vkgb]9SBKDhoad>==Q`3
+!s100 YaT>WUf7P:PF3;DLYB:FZ0
+R17
+32
+R44
+!i10b 1
+R45
+R72
+R73
+!i113 0
+R22
+R23
+Eones_complementor
+Z74 w1738100583
+R12
+R13
+!i122 155
+R2
+Z75 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/OnesComp/ones_complement_structural.vhd
+Z76 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/OnesComp/ones_complement_structural.vhd
+l0
+L4 1
+Vj8=g7?hj`UO@C7:Z1_E@E1
+!s100 IYB8<D1GiM<HX7RUlh^4d3
+R17
+32
+Z77 !s110 1738100604
+!i10b 1
+Z78 !s108 1738100604.000000
+Z79 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/OnesComp/ones_complement_structural.vhd|
+!s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/OnesComp/ones_complement_structural.vhd|
+!i113 0
+R22
+R23
+Astructural
+R12
+R13
+DEx4 work 17 ones_complementor 0 22 j8=g7?hj`UO@C7:Z1_E@E1
+!i122 155
+l22
+L12 22
+VE]`F]kmGa`PMi8]2ilIEL3
+!s100 V6CfNNk3]b_j?K[l8_X3=3
+R17
+32
+R77
+!i10b 1
+R78
+R79
+Z80 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/OnesComp/ones_complement_structural.vhd|
+!i113 0
+R22
+R23
+Eorg2
+Z81 w1706115834
+R12
+R13
+!i122 4
+R2
+Z82 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/org2.vhd
+Z83 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/org2.vhd
+l0
+R27
+V[C`FCj=kL0CTBYLlbjJzD3
+!s100 bGQ1F9eW^Q17OoL9h4g7z2
+R17
+32
+R18
+!i10b 1
+R19
+Z84 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/org2.vhd|
+Z85 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/org2.vhd|
+!i113 0
+R22
+R23
+Adataflow
+R12
+R13
+DEx4 work 4 org2 0 22 [C`FCj=kL0CTBYLlbjJzD3
+!i122 4
+l32
+R30
+VNHGn>Kh:]BEh4o]ImiG<d3
+!s100 h5_AzR3TdRA0a_K=dQ>mI2
+R17
+32
+R18
+!i10b 1
+R19
+R84
+R85
+!i113 0
+R22
+R23
+Ereg
+Z86 w1737081307
+R12
+R13
+!i122 5
+R2
+Z87 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Reg.vhd
+Z88 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Reg.vhd
+l0
+R27
+VRGfm2iUSML=T9l5jF3U6`0
+!s100 [YR2K8dfC;91mFlo`2lkO2
+R17
+32
+R18
+!i10b 1
+R19
+Z89 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/Reg.vhd|
+Z90 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/Reg.vhd|
+!i113 0
+R22
+R23
+Abehavior
+R12
+R13
+DEx4 work 3 reg 0 22 RGfm2iUSML=T9l5jF3U6`0
+!i122 5
+l34
+L33 11
+V_^G<g5I7F=PW8GdHgOjSc1
+!s100 nf[`4S9cGXRcE4GX;@:6^1
+R17
+32
+R18
+!i10b 1
+R19
+R89
+R90
+!i113 0
+R22
+R23
+Eregld
+Z91 w1737081343
+R12
+R13
+!i122 6
+R2
+Z92 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/RegLd.vhd
+Z93 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/RegLd.vhd
+l0
+R27
+Vlf57CW[F:zYGCXdz@ZQmG2
+!s100 ikPXW34H>Yig3olobSE7c2
+R17
+32
+R18
+!i10b 1
+R19
+Z94 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/RegLd.vhd|
+Z95 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/RegLd.vhd|
+!i113 0
+R22
+R23
+Abehavior
+R12
+R13
+DEx4 work 5 regld 0 22 lf57CW[F:zYGCXdz@ZQmG2
+!i122 6
+l37
+L34 19
+VURl5mgd[ab1feg<CSIIk]3
+!s100 IC8af?T7V5V4Kal8D0chZ1
+R17
+32
+R18
+!i10b 1
+R19
+R94
+R95
+!i113 0
+R22
+R23
+Etb_ones_complementor
+w1738100478
+R12
+R13
+!i122 154
+R2
+8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/OnesComp/ones_complement_tb.vhd
+F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/OnesComp/ones_complement_tb.vhd
+l0
+L4 1
+VeVCOLiW`lKHiZ:TBf=:Vd1
+!s100 kIF^U5R9^M7R;;49ocHbI3
+R17
+32
+R77
+!i10b 1
+R78
+!s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/OnesComp/ones_complement_tb.vhd|
+!s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/OnesComp/ones_complement_tb.vhd|
+!i113 0
+R22
+R23
+Etb_tpu_mv_element
+Z96 w1737677068
+Z97 DPx3 std 3 env 0 22 g[fj8WJKOa<0Y`zWY3UD70
+Z98 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R12
+R13
+!i122 7
+R2
+Z99 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/tb_TPU_MV_Element.vhd
+Z100 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/tb_TPU_MV_Element.vhd
+l0
+R27
+Vo?^g1j^AjMY[Y[W2kFTQJ0
+!s100 ^Wd9Q3f6GMod9nYlXG0][1
+R17
+32
+R18
+!i10b 1
+R19
+Z101 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/tb_TPU_MV_Element.vhd|
+Z102 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/tb_TPU_MV_Element.vhd|
+!i113 0
+R22
+R23
+Amixed
+R97
+R98
+R12
+R13
+DEx4 work 17 tb_tpu_mv_element 0 22 o?^g1j^AjMY[Y[W2kFTQJ0
+!i122 7
+l59
+L28 129
+VY7_U`T0Eb0o860URMMD]f2
+!s100 KR5`RlNVLMT4?@4T?iS@c3
+R17
+32
+R18
+!i10b 1
+R19
+R101
+R102
+!i113 0
+R22
+R23
+Etpu_mv_element
+Z103 w1737678383
+R11
+R12
+R13
+!i122 8
+R2
+Z104 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/TPU_MV_Element.vhd
+Z105 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/TPU_MV_Element.vhd
+l0
+L24 1
+VEkFWTVUb37HoRlEOmMC@i2
+!s100 Oan5[g6PEML;U2o>_dSN00
+R17
+32
+R18
+!i10b 1
+R19
+Z106 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/TPU_MV_Element.vhd|
+Z107 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/TPU_MV_Element.vhd|
+!i113 0
+R22
+R23
+Astructure
+R11
+R12
+R13
+DEx4 work 14 tpu_mv_element 0 22 EkFWTVUb37HoRlEOmMC@i2
+!i122 8
+l85
+L38 104
+VCoSf78_>RA[BSiHG;G?gI2
+!s100 FCmAjFWXGjLlhb;Rm=3A83
+R17
+32
+R18
+!i10b 1
+R19
+R106
+R107
+!i113 0
+R22
+R23
+Exorg2
+R81
+R12
+R13
+!i122 9
+R2
+Z108 8/home/rafatmom/CprE381/Lab1/Lab1/Lab1/xorg2.vhd
+Z109 F/home/rafatmom/CprE381/Lab1/Lab1/Lab1/xorg2.vhd
+l0
+R27
+V;hb`C0MKik;h36`3`SzM60
+!s100 [hI[mXFH4_j16U;>U1Lfn2
+R17
+32
+Z110 !s110 1738097481
+!i10b 1
+R19
+Z111 !s90 -reportprogress|300|-work|work|/home/rafatmom/CprE381/Lab1/Lab1/Lab1/xorg2.vhd|
+Z112 !s107 /home/rafatmom/CprE381/Lab1/Lab1/Lab1/xorg2.vhd|
+!i113 0
+R22
+R23
+Adataflow
+R12
+R13
+DEx4 work 5 xorg2 0 22 ;hb`C0MKik;h36`3`SzM60
+!i122 9
+l32
+R30
+VbmLohbkYjJQ`?EHUY>LoL1
+!s100 Z6[FAPS4fBLB`F?OO<AY72
+R17
+32
+R110
+!i10b 1
+R19
+R111
+R112
+!i113 0
+R22
+R23
