@@ -37,9 +37,7 @@ This lab provided hands-on experience in designing and verifying fundamental com
 
 ---
 
-## 📷 Simulation Snapshot
-
-Below is a waveform output from QuestaSim verifying the correctness of a designed combinational module:
+## Lab 1 figure
 
 ![lab figure](lab1_fig.png)
 
